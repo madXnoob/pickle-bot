@@ -20,7 +20,7 @@ def print_to_stdout(*a):
 async def greet(guild):
     print_to_stdout('Greeting')
     greetings = [
-        'hey guys whats up?'
+        'hey guys whats up guys?'
     ]
     channel = discord.utils.get(guild.text_channels, name="general")
     await channel.send(random.choice(greetings))
@@ -33,6 +33,8 @@ async def on_error(event):
 async def on_message(message):
     if message.author == client.user:
         return
+
+    response= ''
     if 'vikings' in message.content.lower():
 
         responses = [
@@ -45,6 +47,7 @@ async def on_message(message):
             'FamBam :)'
         ]
         response = random.choice(responses)
+    else: return
 
     await asyncio.sleep(1.5)
 
