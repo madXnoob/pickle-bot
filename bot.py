@@ -35,7 +35,7 @@ async def on_message(message):
         return
 
     response = ''
-    elif message.content.lower() in ['vikings','viking']
+    if message.content.lower() in ['vikings','viking']
 
         responses = [
             'Yeah well the Scotts beat the vikings soooo','scotts are better then vikings','scotts literally and unironically kicked the vikings arses','Although the Battle of Largs was apparently not considered a significant event by contemporaries, later historians transformed it into an event of international importance. Today, most scholars no longer subscribe to such a view, and instead accord it just an important place in the failed Norwegian campaign.'
