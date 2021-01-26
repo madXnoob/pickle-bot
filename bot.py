@@ -35,7 +35,7 @@ async def on_message(message):
         return
 
     response= ''
-    if  message.content.lower() in ['vikings','viking']:
+    if message.content.lower() in ['vikings','viking']:
 
         responses = [
             'Yeah well the Scotts beat the vikings soooo','scotts are better then vikings','scotts literally and unironically kicked the vikings arses'
