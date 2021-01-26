@@ -47,6 +47,12 @@ async def on_message(message):
             'I fucking hate midgets'
         ]
         response = random.choice(responses)
+    elif message.content.lower() in ['piggle']:
+
+        responses = [
+            'Fuck Piggle. I said it'
+        ]
+        response = random.choice(responses)
     elif message.content.lower() in ['stupid shit']:
 
         responses = [
