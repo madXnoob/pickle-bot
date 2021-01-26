@@ -35,7 +35,7 @@ async def on_message(message):
         return
 
     response= ''
-    if 'vikings' in message.content.lower():
+    if  message.content.lower() in ['vikings','viking']:
 
         responses = [
             'Yeah well the Scotts beat the vikings soooo','scotts are better then vikings','scotts literally and unironically kicked the vikings arses'
@@ -55,7 +55,7 @@ async def on_message(message):
             'woah'
         ]
         response = random.choice(responses)
-        
+
     elif message.content.lower() in ['family','fam','familia']:
         responses = [
             'FamBam :)'
