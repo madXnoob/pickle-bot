@@ -41,7 +41,7 @@ async def on_message(message):
             'Yeah well the Scotts beat the vikings soooo','scotts are better then vikings','scotts literally and unironically kicked the vikings arses'
         ]
         response = random.choice(responses)
-    elif message.content.lower() in ['midget','midgets']
+    elif message.content.lower() in ['midget','midgets']:
 
          responses = [
         'I fucking hate midgets'
