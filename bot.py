@@ -76,7 +76,7 @@ async def on_message(message):
             'Daavviidd'
         ]
         response = random.choice(responses)
-        elif message.content.lower() in ['code','coding']:
+    elif message.content.lower() in ['code','coding']:
 
         responses = [
             'Print Hello World'
