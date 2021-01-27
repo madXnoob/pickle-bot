@@ -64,7 +64,7 @@ async def on_message(message):
             'FamBam :)'
         ]
         response = random.choice(responses)
-    elif message.content.lower() in ['FamBam','Jake']:
+    elif client.user in message.mentions or message.content.lower() in ['famBam','jake','@FamBam']:
 
         responses = [
             'WhatT'
