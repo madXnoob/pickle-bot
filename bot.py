@@ -38,13 +38,13 @@ async def on_message(message):
     if 'vikings' in message.content.lower():
 
         responses = [
-            'Yeah well the Scotts beat the vikings soooo','scotts are better then vikings','scotts literally and unironically kicked the vikings arses','Although the Battle of Largs was apparently not considered a significant event by contemporaries, later historians transformed it into an event of international importance. Today, most scholars no longer subscribe to such a view, and instead accord it just an important place in the failed Norwegian campaign.'
+            'Yeah well the Scotts beat the vikings, did the germans beat the vikings josh? Didnt think so','scotts are better then vikings, because they are','scotts literally and unironically kicked the vikings arses','Although the Battle of Largs was apparently not considered a significant event by contemporaries, later historians transformed it into an event of international importance. Today, most scholars no longer subscribe to such a view, and instead accord it just an important place in the failed Norwegian campaign.'
         ]
         response = random.choice(responses)
     elif message.content.lower() in ['midget','midgets']:
 
         responses = [
-            'I fucking hate midgets'
+            'I fucking hate midgets.','If i found out my kid was going to be a midget i would abort it.','I just dont think the deserve to live.'
         ]
         response = random.choice(responses)
     elif message.content.lower() in ['piggle']:
@@ -53,7 +53,7 @@ async def on_message(message):
             'Fuck Piggle. I said it'
         ]
         response = random.choice(responses)
-    elif message.content.lower() in ['stupid shit']:
+    elif message.content.lower() in ['stupid shit','fuck you']:
 
         responses = [
             'woah'
@@ -68,6 +68,12 @@ async def on_message(message):
 
         responses = [
             'WhatT'
+        ]
+        response = random.choice(responses)
+    elif message.content.lower() in ['im on swift']:
+
+        responses = [
+            'I miss swift'
         ]
         response = random.choice(responses)
     elif message.content.lower() in ['david']:
