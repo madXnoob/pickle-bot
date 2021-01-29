@@ -56,7 +56,7 @@ async def on_message(message):
     elif message.content.lower() in ['stupid shit','fuck you']:
 
         responses = [
-            'woah'
+            'whoa'
         ]
         response = random.choice(responses)
     elif message.content.lower() in ['family','fam','familia']:
@@ -64,10 +64,52 @@ async def on_message(message):
             'FamBam :)'
         ]
         response = random.choice(responses)
+    elif message.content.lower() in ['so what are you guys playing?','what game we palying','what game we playing?','trying to play games?','what we gonna play','what we gonna play?']:
+
+        responses = [
+            'I miss swift'
+        ]
+        response = random.choice(responses)
+    elif message.content.lower() in ['cant leaving work']:
+
+        responses = [
+            'You trying to play games?'
+        ]
+        response = random.choice(responses)
+    elif message.content.lower() in ['hey guys whats up','hey guys whats up?']:
+
+        responses = [
+            'Nah'
+        ]
+        response = random.choice(responses)
+    elif message.content.lower() in ['im on']:
+
+        responses = [
+            'Took too long get ditched'
+        ]
+        response = random.choice(responses)
+    elif message.content.lower() in ['good']:
+
+        responses = [
+            'Good x2'
+        ]
+        response = random.choice(responses)
     elif client.user in message.mentions or message.content.lower() in ['famBam','jake','@FamBam']:
 
         responses = [
             'WhatT'
+        ]
+        response = random.choice(responses)
+    elif message.content.lower() in ['too much money']:
+
+        responses = [
+            'Jew Bastid'
+        ]
+        response = random.choice(responses)
+    elif message.content.lower() in ['smack?','smack']:
+
+        responses = [
+            'Yeahers with peen'
         ]
         response = random.choice(responses)
     elif message.content.lower() in ['im on swift']:
