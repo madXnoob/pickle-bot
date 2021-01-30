@@ -82,7 +82,19 @@ async def on_message(message):
             'Nah'
         ]
         response = random.choice(responses)
-    elif message.content.lower() in ['get on']:
+    elif message.content.lower() in ['this bot sucks','bot sucks','bot is trash']:
+
+        responses = [
+            'your mom'
+        ]
+        response = random.choice(responses)
+    elif message.content.lower() in ['i miss muff']:
+
+        responses = [
+            'samers'
+        ]
+        response = random.choice(responses)
+    elif message.content.lower() in ['get on','hop on','get online','join voice chat','join chat']:
 
         responses = [
             'cant watching crown','cant watching wanda caca','cant watching haunting at hill house','cant studying then fooders','cant watching dark','cant taking a shize'
