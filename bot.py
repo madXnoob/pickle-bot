@@ -70,6 +70,12 @@ async def on_message(message):
             'I miss swift'
         ]
         response = random.choice(responses)
+    elif message.content.lower() in ['leave him']:
+
+        responses = [
+            'He had his chance'
+        ]
+        response = random.choice(responses)
     elif message.content.lower() in ['cant leaving work']:
 
         responses = [
