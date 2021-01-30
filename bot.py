@@ -82,6 +82,12 @@ async def on_message(message):
             'Nah'
         ]
         response = random.choice(responses)
+    elif message.content.lower() in ['get on']:
+
+        responses = [
+            'cant watching crown','cant watching wanda caca','cant watching haunting at hill house','cant studying then fooders','cant watching dark','cant taking a shize'
+        ]
+        response = random.choice(responses)
     elif message.content.lower() in ['im on']:
 
         responses = [
