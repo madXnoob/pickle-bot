@@ -76,6 +76,12 @@ async def on_message(message):
             'He had his chance'
         ]
         response = random.choice(responses)
+    elif message.content.lower() in ['shut up']:
+
+        responses = [
+            'Nah'
+        ]
+        response = random.choice(responses)
     elif message.content.lower() in ['cant leaving work']:
 
         responses = [
