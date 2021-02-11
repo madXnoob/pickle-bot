@@ -47,6 +47,18 @@ async def on_message(message):
             'I fucking hate midgets.','If i found out my kid was going to be a midget i would abort it.','I just dont think the deserve to live.'
         ]
         response = random.choice(responses)
+    elif message.content.lower() in ['golden agers']:
+
+        responses = [
+            'remember when we used to play party bash all the time?','remember when josh brought mom to the apartment?','remember going to coffee factory?','remember when chris wanted some m&ms from josh and josh didnt share?','remember watching the soccer world cup and reno said if i make it peru wins?','remember when swift came over to clean my shize?'
+        ]
+        response = random.choice(responses)
+    elif message.content.lower() in ['muff','i miss muff','moffa','i miss moffa']:
+
+        responses = [
+            'Samers','I wonder if muff is thinking about me','I could of touched muffs vagene'
+        ]
+        response = random.choice(responses)
     elif message.content.lower() in ['piggle']:
 
         responses = [
