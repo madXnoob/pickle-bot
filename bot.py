@@ -44,13 +44,13 @@ async def on_message(message):
     elif message.content.lower() in ['midget','midgets']:
 
         responses = [
-            'I fucking hate midgets.','If i found out my kid was going to be a midget i would abort it.','I just dont think the deserve to live.'
+            'I fucking hate midgets.','If i found out my kid was going to be a midget i would abort it.','I just dont think they deserve to live.'
         ]
         response = random.choice(responses)
     elif message.content.lower() in ['golden agers']:
 
         responses = [
-            'remember when we used to play party bash all the time?','remember when josh brought mom to the apartment?','remember going to coffee factory?','remember when chris wanted some m&ms from josh and josh didnt share?','remember watching the soccer world cup and reno said if i make it peru wins?','remember when swift came over to clean my shize?'
+            'remember when we used to play party bash all the time?','remember when josh brought mom to the apartment?','remember going to coffee factory?','remember when chris wanted some m&ms from josh and josh didnt share?','remember watching the soccer world cup and reno said if i make it peru wins?','remember when swift came over to clean my shize?','remember when we went to epcot with josh?'
         ]
         response = random.choice(responses)
     elif message.content.lower() in ['muff','i miss muff','moffa','i miss moffa']:
@@ -79,7 +79,7 @@ async def on_message(message):
     elif message.content.lower() in ['so what are you guys playing?','what game we palying','what game we playing?','trying to play games?','what we gonna play','what we gonna play?']:
 
         responses = [
-            'I miss swift'
+            'this dick'
         ]
         response = random.choice(responses)
     elif message.content.lower() in ['leave him']:
@@ -124,7 +124,7 @@ async def on_message(message):
             'samers'
         ]
         response = random.choice(responses)
-    elif message.content.lower() in ['get on','hop on','get online','join voice chat','join chat']:
+    elif message.content.lower() in ['get on','hop on','get online','join voice chat','join chat','get in here you bastid','get in here','join']:
 
         responses = [
             'cant watching crown','cant watching wanda caca','cant watching haunting at hill house','cant studying then fooders','cant watching dark','cant taking a shize'
@@ -164,6 +164,12 @@ async def on_message(message):
 
         responses = [
             'I miss swift'
+        ]
+        response = random.choice(responses)
+    elif message.content.lower() in ['what time ow','what time ow?','what time overwatch','what time overwatch?','overwatch','overwatch?']
+    
+        responses = [
+            'AND THEY SAY CHIVARLY IS DEAD','is this easy mode?','you are nothing without me','is rein main on?','someone call the whambulance','Have some Lucio-Ohs','In the desert, the cheetah lives for 3 years, the camel lives for 9','DIPSTICK'
         ]
         response = random.choice(responses)
     elif message.content.lower() in ['david']:
