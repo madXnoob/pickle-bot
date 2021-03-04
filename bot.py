@@ -166,7 +166,7 @@ async def on_message(message):
             'I miss swift'
         ]
         response = random.choice(responses)
-    elif message.content.lower() in ['what time ow','what time ow?','what time overwatch','what time overwatch?','overwatch','overwatch?']
+    elif message.content.lower() in ['what time ow','what time ow?','what time overwatch','what time overwatch?','overwatch','overwatch?']:
     
         responses = [
             'AND THEY SAY CHIVARLY IS DEAD','is this easy mode?','you are nothing without me','is rein main on?','someone call the whambulance','Have some Lucio-Ohs','In the desert, the cheetah lives for 3 years, the camel lives for 9','DIPSTICK'
