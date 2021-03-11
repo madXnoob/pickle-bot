@@ -44,7 +44,7 @@ async def on_message(message):
     elif message.content.lower() in ['midget','midgets']:
 
         responses = [
-            'I fucking hate midgets.','If i found out my kid was going to be a midget i would abort it.','I just dont think they deserve to live.'
+            'I fucking hate midgets.','If i found out my kid was going to be a midget i would abort it.','I just dont think they deserve to live.','I fucking hate midgets, except for Danny DeVito'
         ]
         response = random.choice(responses)
     elif message.content.lower() in ['golden agers']:
